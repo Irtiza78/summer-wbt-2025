@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 15px 11%;
+}
+
+header ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header li {
+    font-size: 20px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+header a:hover {
+    color: white;
+    height: 20px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(253, 110, 10, 1);
+    background-color: rgba(253, 110, 10, 1);
+}
