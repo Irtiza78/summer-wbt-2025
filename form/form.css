@@ -38,6 +38,7 @@ h2, .star{
     margin: auto 300px;
 }
 button{
+    margin: 15px;
     padding: 5px;
     width: max-content;
     border-radius: 20px;
@@ -47,4 +48,7 @@ button{
 }
 select{
     width: 175px;
+}
+#otherAmount{
+    width: 60px;
 }
